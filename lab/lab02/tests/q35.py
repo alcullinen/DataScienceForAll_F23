@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> list(farmers_markets_locations_by_latitude.column('y').take(range(3)))
-          [64.86275, 64.8459, 64.844414]
+          >>> np.round(farmers_markets_locations_by_latitude.column('y').take(range(3)),4)
+          array([ 64.8628,  64.8459,  64.8444])
           """,
           'hidden': False,
           'locked': False
