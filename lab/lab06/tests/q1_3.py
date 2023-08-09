@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(valid_stat) == np.ndarray
+          >>> type(valid_stat) == int
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> int(sum(valid_stat))
+          >>> valid_stat
           2
           """,
           'hidden': False,
