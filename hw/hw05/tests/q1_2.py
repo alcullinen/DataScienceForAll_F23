@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> final_scores.num_columns
+          >>> results.num_columns
           3
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> set(['Opponent', 'Cal Score', 'Opponent Score']) == set(final_scores.labels)
+          >>> set(['Opponent Name', 'SBCC Score', 'Opponent Score']) == set(results.labels)
           True
           """,
           'hidden': False,
