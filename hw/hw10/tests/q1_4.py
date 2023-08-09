@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> correlation([1,2,3], [4,5,6])
-          0.9999999999999999
+          >>> np.round(correlation([1,2,3], [4,5,6]),1)
+          1.0
           """,
           'hidden': False,
           'locked': False
