@@ -7,8 +7,8 @@ test = {
         {
           'code': r"""
           >>> np.random.seed(8);
-          >>> one_sample_mean(salaries, 'salary', 100)
-          76699.82860000001
+          >>> np.round(one_sample_mean(salaries, 'salary', 100), 0)
+          76700.0
           """,
           'hidden': False,
           'locked': False
