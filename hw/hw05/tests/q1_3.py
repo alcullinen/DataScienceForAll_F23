@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 'did_cal_win' in globals()
+          >>> 'did_SBCC_win' in globals()
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> did_cal_win(final_scores.row(1))
+          >>> did_SBCC_win(results.row(1))
           True
           """,
           'hidden': False,
