@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 <= cal_wins <= 10
+          >>> 0 <= SBCC_wins <= 15
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> 0 <= cal_losses <= 10
+          >>> 0 <= SBCC_losses <= 14
           True
           """,
           'hidden': False,
