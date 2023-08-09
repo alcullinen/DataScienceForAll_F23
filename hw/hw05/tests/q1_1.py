@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sum_scores(2, 3, 6, 1)
+          >>> game_totals(2, 3, 6, 1)
           12
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> sum_scores(-2,3,5,-10)
+          >>> game_totals(-2,3,5,-10)
           -4
           """,
           'hidden': False,
